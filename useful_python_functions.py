@@ -133,3 +133,12 @@ def walk_file_structure(rootdir):
         for file in files:
             print(os.path.join(subdir, file))
     return()
+
+def iterate_dict_list_elem(df, col)
+# Iterate through the keys and values for a dataframe column when that column is type list or dict
+import ast
+for index in range(len(df)):
+    entry = df.col.iloc[a]
+    print (index, [item.keys() for item in entry])
+return()
+
